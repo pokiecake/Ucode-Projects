@@ -1,0 +1,46 @@
+html{
+  height:100%;
+}
+
+body {
+  margin:0;
+  font-family: Verdana;
+  background-size:cover;
+  background-attachment:fixed;
+  height:100%;
+  color:white;
+ }
+ 
+  header {
+    background-color:#0b0d0e;
+  }
+  
+  header nav a{
+    color:#fdfdfd;
+  }
+  
+  header nav {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  header nav a {
+    margin: 15px 0;
+    padding: 0 10px;
+  }
+  
+  header nav a:first-child{
+    margin-right:auto;
+  }
+  
+  .banner{
+  height:375px;
+  display:Flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  }
+  
+  header nav img{
+    height:30px;
+  }
