@@ -1,0 +1,22 @@
+ /*notes:
+  box shadow order: left and right, up or down, blurr, how far
+  */
+  
+
+  
+  section{
+    margin:20px 0;
+    height:50%;
+    width:40%;
+    text-align:center;
+    box-shadow: 15px 15px 10px 5px #043c4a;
+    }
+    
+  div{
+    display:flex;
+    justify-content:center;
+  }
+  
+  body{
+    background-image:linear-gradient(orange, rgba(62, 6, 114, 0.53), orange);
+  }
