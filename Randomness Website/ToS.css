@@ -1,0 +1,48 @@
+header{
+  background-image:url(https://vignette.wikia.nocookie.net/town-of-salem/images/5/52/StartScreen.jpg/revision/latest/scale-to-width-down/350?cb=20150628075019);
+}
+
+body{
+  text-align:center;
+  margin:0;
+}
+
+table{
+  text-align:center;
+  width:100%;
+  font-family:sans-serif;
+  border-collapse:collapse;
+}
+
+th{
+  border-color:blue;
+  border:solid;
+  border-width:2px;
+  margin:0;
+  padding:0;
+  text-align:left;
+  padding:8px;
+}
+
+td{
+  border-width:2px;
+  border:solid;
+  text-align:left;
+  padding:8px;
+}
+
+table tr:nth-child(even){
+  background-color:red;
+}
+
+table thead{
+  background-color:#822e21;
+}
+
+tbody tr:nth-child(odd){
+  background-color:green;
+}
+
+tfoot{
+  background-color:#822e21;
+}
