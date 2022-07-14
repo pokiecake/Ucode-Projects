@@ -1,0 +1,19 @@
+    
+    #top-bun{
+      height:80px; 
+      width:200px; 
+      background-color:peru;
+      border-radius:4px
+    }
+    
+    #top-lettuce{
+      height:10px; 
+      width:200px; 
+      background-color:green
+    }
+    
+    #tomato{
+      height:10px; 
+      width:200px; 
+      background-color:red
+    }
