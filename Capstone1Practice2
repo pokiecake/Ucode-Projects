@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href="home.css">
+
+<body>
+
+  <header class="banner banner-home">
+
+    <nav>
+      <a><img src="logo.png"></a>
+      <a class="active" href="index.html">Featured</a>
+      <a href="menu.html">The Menu</a>
+      <a href="nut-table.html">Nutrition</a>
+      <a href="form.html">Order Form</a>
+    </nav>    
+    <div>
+      <h1>The most delicious and filling coding cuisine on the planet.</h1>
+      <h1>There is no second place.</h1>
+    </div>
+  </header>
+
+  <main>  
+    <div>
+      <div>
+      <img src="htmlt.png"></div>
+      <section class="description">
+        <h2>Featured HTMLT</h2>
+        <p>A delicious veggie bacon, lettuce and tomato sandwich on grilled sourdough bread. This comes with our own special CSSauce and your choice of fancy fries or our DOM Salad.</p>
+      </section>
+    </div>
+
+    <div>
+      <section class="description">
+        <h2>Featured Code Spaghetti</h2>
+        <p>A plate of spaghetti covered in sauce made from our homepage grown tomatoes.  On top we have Parmesan cheese and a sprig of parsley..Mmmm</p>
+      </section>
+      <div>
+      <img src="codespaghetti.png">
+      </div>
+    </div>
+  </main>
+  
+  <section class = "location">
+      <figure>
+        <img src="ucodehermosa.png" />
+        <figcaption>Hermosa Beach</figcaption>
+      </figure>
+      <figure>
+        <img src="ucodetorrance.png" />
+        <figcaption>Torrance</figcaption>
+      </figure>
+      <figure>
+        <img src="ucodelacanada.png" />
+        <figcaption>La Ca&ntilde;ada</figcaption>
+      </figure>
+      <figure>
+        <img src="ucodetustin.png" />
+        <figcaption>Tustin</figcaption>
+      </figure>
+    </section>
+
+
+
+  <footer>
+    <nav>
+      <a href="index.html">Featured</a>
+      <a href="menu.html">The Menu</a>
+      <a href="nut-table.html">Nutrition</a>
+      <a class="active" href="form.html">Order Form</a>
+    </nav>
+    <figure>
+      <img src="chefchristy.png">
+        <figcaption>Created by Christy St. John &mdash; Updated January 1, 20XX</figcaption>
+    </figure>
+  </footer>
+
+</body>
