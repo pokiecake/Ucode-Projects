@@ -1,0 +1,29 @@
+         /*notes:
+  box shadow order: left and right, up or down, blurr, how far
+  */
+        
+        
+
+       div{
+         display:flex;
+         justify-content:space-around;
+       }
+       
+        div section{
+         width:40%;
+       }
+       
+       section{
+         box-shadow: 20px 20px 15px 2px;
+         margin:40px;
+         line-height:20px;
+         text-align:center;
+       }
+       
+       body{
+        background-image:linear-gradient(black,#16012a,rgba(62, 6, 114, 0.53),#16012a);;
+       }
+       #center{
+          color:aqua;
+          background-color:#0e0745;
+        }
