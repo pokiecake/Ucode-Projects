@@ -1,0 +1,50 @@
+ /*notes:
+  box shadow order: left and right, up or down, blurr, how far
+  */
+ 
+
+
+
+  main section{
+   margin: 40px;
+   background-color:#16012a;
+   box-shadow: 10px 10px 10px 5px blue;
+   color:aqua;
+ }
+ #Newspaper{
+   margin:100px;
+   text-align:center;
+ }
+ section img{
+   height:50%;
+ }
+ #Newspaper img{
+   height:500px;
+ }
+ 
+ #Parties-mascots{
+   display:flex;
+   justify-content:space-around
+ }
+ 
+ #Parties-mascots img{
+   width:50%;
+ }
+ 
+ #Other{
+   text-align:center;
+ }
+ 
+ #Other img{
+   height:30%;
+   width:30%;
+ }
+ 
+ #Parties-mascots div:first-child{
+   text-align:right;
+ }
+ 
+ body{
+   background-image:linear-gradient(rgba(255, 255, 0, 0.5),rgba(255, 255, 0, 0.1),rgba(255, 255, 0, 0.5));
+ }
+ 
