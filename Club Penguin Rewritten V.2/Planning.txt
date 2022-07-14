@@ -1,0 +1,172 @@
+Club Penguin Rewritten
+CPR is an online game where you can sociallize with other people and play 
+games in it.  You can buy clothing or items, and have fun alltogether.  
+
+<background img src="https://goo.gl/3Pqn86">
+
+1. Intro
+
+- What it is
+
+Not to be confused with Club Penguin Island, this is a game where you can 
+hang out with other penguins, and have fun with games or parties.  If 
+you're new, you can have a tour with the place to better understand it.
+
+- Events
+
+Throughout the year, CPR will have events and parties.  Some include a 
+New Years party, Operation Blackout, and the Water Party.  If you want to 
+see a list of parties, go here <!--- link to the CPR wiki ---!>
+
+- Gameplay
+
+There are a bunch of games that you are able to play in CPR.  You can earn 
+coins in all of the games.  With the coins, you can buy clothing, items,
+and other items.  Plus, you can sociallize with other penguins and assemble
+a group to do something like play a band or play a hockey team.
+
+- Rooms and pins.
+
+There are a lot of rooms in CPR.  Some rooms are only accsessed during 
+events.  You will find a different enviornment in all of them, and you
+will soon remember the names of them.  You can find minigames, parties, 
+and pins. Most pins are scattered around everywhere, and expire at some 
+date.  You can put pins on your player cards.  pins are usually found 
+in rooms, so have fun finding the pins and rooms.
+
+- Coins
+Coins are the currency in the game.  You earn coins by entering a code, 
+mining, or playing minigames.  Once you earn your coins, you can spend 
+them in various ways.  You can buy clothing, furniture, or other things.
+You will probably want or need items so you have to earn your coins to 
+spend them to get stuff you want.
+
+2. Events and Parties
+
+- Parties
+
+Depending on the time, you might wonder what is going on.  In CPR, there 
+are different parties going on that might be relevent today or just for
+fun. Whenever an item appears in a party, it might not appear when the
+party ends, so it is kinda important.
+
+- Mascots
+
+Mascots are characters in CPR that have appeared somewhere.  For example, 
+Aunt Arctic is the editor and publisher of the newspaper, Rockhopper who 
+is a pirate, Sensei who built the dojo, and a lot of other characters.
+When they are online, you can meet them and get a background and stamps,
+elaborated here.
+
+- Others
+
+There might be other events or groups, one famously called the rebel
+Penguin Federation.  They might be doing groups, olympics, etc. They
+Also have a mascot tracker to tell you when a mascot is online.
+If you don't really like that, there might be groups or tours at random 
+times.  If you see a band in a room called the lighthouse, you should 
+join.
+
+-Newspaper
+
+The newspaper is accsesible from the top left of your computer screen. 
+It tells events and can refrence parties or mascots.  The writer and 
+pupblisher of the newspaper is Aunt Arctic.  You can send her your 
+question, joke, poem, or misc. and she might put it in the newspaper.  If 
+you get featured in the newspaper, you will be awarded a blue book.
+
+3. Gameplay and activites
+
+- Minigames
+
+A lot of games are scattered everywhere around the isalnd, and it isn't 
+a secret.  When you play the games, you will earn coins once you are done.
+With coins, you can buy various items mentioned in the Style category.
+All of the games are fun and some are challenging in their own way.
+Try to find the location of the game above. (It is probably the best game
+for coins.)
+
+- Activites
+
+On the island, you will find other penguins walking around.  Those are
+real people who are logged in and want some fun as well.  You can
+socialize and assemble bands and groups.  You can dress up and do 
+activities as well.
+
+- Stamps
+
+Stamps are earned when you do something special.  For mascots, you 
+have to meet them online.  You can't meet them as an NPC and get stamps.
+For everything else, just do what it says although parties are in a 
+limited time.  If you earn all of the stamps in a game, you will earn
+double coins whenever you finish a game.  So if you get 1000 coins, 
+you will earn 2000 coins.  This is great when playing aqua grabber, 
+the secret game, since you earn a lot of coins from that game.  
+Anyways, it is fun to get stamps and you can decorate your stamp book 
+with the stamps you get.
+
+- Coins
+
+Coins are the currency of the game. You can get a lot of items from coins.
+Furniture, clothing, puffles, they all need coins in order to get. 
+It's easy to get coins. One way to get coins is by playing games. Aqua grabber
+and mine surfer are probably the best games to rack up coins. Aqua grabber
+is kind of slow but generates an enormous amount of coins, shown on the table,
+While mine surfer doesn't generate as much, but can be played a lot 
+more times than aqua grabber. Mining is another way but it doesn't seem 
+fun since you're just mining in one spot repeatedly. Finally, you can 
+enter codes to get coins, but that is a waiting aspect so you shouldn't
+depend on codes to get coins. Decorate your penguin or igloo with the coins you get.
+
+--------------------------------------------------------------
+|Name            | Stamps | Levels | Min coins* | max coins* |
+--------------------------------------------------------------
+|Aqua Grabber    |   20   |   10   |      1     |    2350    |
+--------------------------------------------------------------
+|Cart Surfer     |   16   |    1   |      0     |    N/A     |
+--------------------------------------------------------------
+|Pizzatron 3000  |   10   |   40   |      0     |    375**   |
+--------------------------------------------------------------
+|etc.            |   etc. |  etc.  |     etc.   |   etc.     |
+--------------------------------------------------------------
+
+*they are telling the minimum and maximum coins in one finished playthrough.
+**May need more calculation
+
+4. Misc
+
+- Rooms
+
+Rooms are the places in CPR that you can go in. Some rooms are party
+exclusive while others are permanent. Some rooms are changed for a 
+party. There are some rooms that needs to be unlocked like the hidden
+lake or EPF command room. Rooms have their own quirks like mining, 
+throwing snowballs, shopping, and all kinds of stuff.
+
+- Pins
+Pins are collectable items in CPR.  They are usually found in rooms, but
+you can also earn the pins usually when a special event comes.  You 
+can put them on your player card, and that is basically it.
+
+- Puffles
+Puffles are these pets that roam around in CPR.  You can adopt them in
+the pet shop for about 400 coins.  Once you adopt puffles, you can care
+for them in your igloo.  You can also buy furniture that cares for your 
+puffle for you, cleaning, sleeping, or amusement.  You can also take your
+puffle out for a walk, but they will deny if they are in a bad mood.  
+The puffles have special dances, and some puffles can be brought to 
+certain games and will grant you special bonuses as well.
+
+-Codes
+Codes aren't figured aren't in CPR.  They are released on a socal media 
+platform like twitter.  You can enter codes in unlock items online
+and will get many items like coins, clothing, or other items.
+
+-EPF+PSA
+The EPF and PSA are secret organizations.  The EPF is the Elite Penguin
+Force that is found by passing a test by getting an invitation from a 
+penguin or from finding a secret in a book.  The PSA is the Penguin 
+Secret Agency that is the sister organization to the EPF.  You get an 
+invitation by finding a secret to the moderator rules.  They both have a 
+job of keeping the island safe.  You can do missions and field ops to 
+gather medals to buy some clothes.
