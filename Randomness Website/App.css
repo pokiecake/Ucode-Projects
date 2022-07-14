@@ -1,0 +1,42 @@
+header{
+  background-size:cover;
+  height:560px;
+  display:Flex;
+}
+
+img{
+  object-fit: cover;
+  width:auto;
+  height:20%;
+}
+
+#nav{
+  display:flex;
+  margin-left:auto;
+}
+
+nav{
+  margin-right:10px;
+  font-size:25px;
+  color:aqua;
+}
+
+a{
+  text-decoration:none;
+}
+
+header:first-child{
+  margin-left:0;
+}
+
+p{
+  line-height:15px;
+}
+
+div{
+  display:flex;
+  text-align:center;
+  overflow:auto;
+  margin-left:20%;
+  margin-right:20%;
+}
