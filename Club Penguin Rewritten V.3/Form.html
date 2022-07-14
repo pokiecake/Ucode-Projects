@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Club Penguin Rewritten</title>
+      <link href="App.css" rel="stylesheet">
+      <link href="Form.css" rel="stylesheet">
+      </head>
+    <body>
+      <header>
+        <nav>
+        <a href="Home.html"><img src="https://goo.gl/ws87YU"></a>
+        <a href="Events.html"><h4> Events and parties</h4></a> 
+        <a href="Game-play.html"><h4> Game-play and Socializing</h4></a> 
+        <a href="Misc.html"><h4>Miscellaneous</h4></a>
+        <a class="active"><h4>Survey</h4></a>
+        </nav>
+      </header>
+      <main>
+        <form action="https://api.ufor.ms/submissions/tony@adastraschool.org/Survey" method="post">
+          <input type="hidden" name="uf_redirect" value="http://projects.ucode.com/E5xzPfcxCUZgePyC81FdBb0uRH43/-LCoEIZ1ZtOK3BWF5Qrs/Thanks.html">
+        <label>Survey</label><br>
+        <fieldset id="About" class="red-back"><legend>About you</legend>
+        <label>What is your name?</label>
+        <input class="input" type="text" name="Name">
+        <label>What is your email?</label>
+        <input class="input" type="email" name="Email">
+        </fieldset>
+        
+        <fieldset id="Parties" class="red-back"><legend>Opinions</legend>
+        
+          
+          <label>Leave a comment about CPR</label>
+        <textarea class="input" id="Comment" name="comment"></textarea>
+        <label>Rate CPR from 1-10</label>
+        <input class="input" type="number" min="1" max="10">
+          <fieldset class="list red-back" id="party-opinion">
+            <legend>How many of these parties do you like?</legend>
+            
+            <label><input type="checkbox" name="Fav-Music">Music Jam</label>
+            <label><input type="checkbox" name="Fav-Holiday">Holiday Party</label>
+            <label><input type="checkbox" name="Fav-Earth">Earth Day</label>
+            <label><input type="checkbox" name="Fav-Puffle">Puffle Party</label>
+            <label><input type="checkbox" name="Fav-Adventure">Adventure Party</label>
+            <label><input type="checkbox" name="Fav-Anniversary">Anniversary Party</label>
+            <label><input type="checkbox" name="Fav-EPF-PSA">EPF or PSA Party</label>
+            <label><input type="checkbox" name="Fav-Sports">Sports Party</label>
+            <label><input type="checkbox" name="Fav-Other">Other</label>
+            
+          </fieldset>
+          </fieldset>
+          
+        <fieldset class="list" id="test"><legend>Test</legend>
+          <legend id="not-mascot">Which one is not a mascot?*</legend>
+          
+          <label><input type="radio" name="not-mascot" value="Rory" required>Rory the construction worker</label>
+          <label><input type="radio" name="not-mascot" value="Herbert">Herbert Percival Bear, Esquire</label>
+          <label><input type="radio" name="not-mascot" value="Klutzy">Klutzy the crab</label>
+          <label><input type="radio" name="not-mascot" value="Ph">Paige the Puffle Handler</label>
+          
+          <label>What is the date that you are submitting this?*</label>
+          <input class="input" type="date" name="Date" required>
+          <label>What party is going on?*</label> 
+          <select name="Party" class="input" required>
+            
+          <option>Music Jam</option>
+          <option>Holiday Party</option>
+          <option>Earth Day</option>
+          <option>Puffle Party</option>
+          <option>Exploring Party</option>
+          <option>Anniversary party</option>
+          <option>Rebuild party</option>
+          <option>EPF or PSA party</option>
+          <option>Sports Party</option>
+          <option>Other</option>
+          <option>None</option>
+          
+          </select>
+          </fieldset>
+        <button action="Thanks.html">Save please</button>
+      </form>
+      </main>
+      <footer>
+        <nav>
+      <a href="Home.html"><img src="https://goo.gl/ws87YU"></a>
+      <a href="Events.html"><h4> Events and parties</h4></a> 
+      <a href="Game-play.html"><h4> Game-play and socializing</h4></a>   
+      <a href="Misc.html"><h4>Miscellaneous</h4></a>
+      <a class="active"><h4>Survey</h4></a>
+      </nav>
+      </footer>
+    </body>
+  </html>
+  
