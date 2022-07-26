@@ -1,0 +1,38 @@
+Tiles planning:
+20 tiles
+3 items needed to unlock the exit
+One key, a sledgehammer, and a code.
+Traps may riddle the area
+The start is safe from all traps
+There are many resources you need
+Resources: Food, timber, flowers, cloth.
+Tools: Rocks, pocket knife
+Stats:Food, Sanity, Water.
+The protaginist wakes up in the maze randomly, at 0.
+Tools:Bow, sledgehammer, pocket knife.
+Person wakes up at a dark place
+They have no bed.
+They have a canteen
+Crafting items:
+Tier 1
+Pocket knife* - 1 timber, 1 flint
+Small snare Trap - 3 timber, 1 flint
+Clothy bed+ - 10 cloth, 3 timber
+Upgrade base* - 10 timber, 10 rocks, 1 pocket knife*
+Campfire* - 10 rocks, needs timber to fuel
+Garland+ - 12 flowers
+Spinning wheel* - 4 timber, 1 flint
+Tier 2
+Snare Trap - 4 timber, 2 cloth, 1 flint
+Pickaxe* - 3 timber, 7 rocks
+Raised bed+ - 6 timber, 15 cloth
+Upgrade base* - 20 timber, 10 rocks, 20 cloth
+canteen - 4 timber, 1 flint
+Tier 3
+Sledgehammer* - 10 timber, 20 metal, furnace
+Comfortable bed+ - 10 timber, 20 cloth
+Metal knife - 3 metal, 2 timber, 1 pocket knife
+furnace* - 10 rocks, 6 timber.
+*once +expires
+flint never gets used up
+pocket knife doesn't get used up
