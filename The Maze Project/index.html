@@ -1,0 +1,190 @@
+<!Doctype html>
+<html>
+  <head>
+    <title id='title'>
+      You are in a dark maze
+    </title>
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <!--These are the stat displays-->
+      <h1 id='headerText'></h1>
+      <h2 id='welcomeBackText'></h2>
+      <div id='storages' class='hidden'>
+        <div>
+        <h2>Timber</h2>
+        <h3>10</h3>
+        </div>
+        <div>
+        <h2>Rocks</h2>
+        <h3>1</h3>
+        </div>
+        <div>
+        <h2>Cloth</h2>
+        <h3>1</h3>
+        </div>
+        <div>
+        <h2>Flowers</h2>
+        <h3>0</h3>
+        </div>
+        <div>
+        <h2>Flax</h2>
+        <h3>0</h3>
+        </div>
+        <div>
+        <h2>Hemp</h2>
+        <h3>0</h3>
+        </div>
+        <div>
+        <h2>Rabbits</h2>
+        <h3>0</h3>
+        </div>
+        <div>
+        <h2>Pigs</h2>
+        <h3>0</h3>
+        </div>
+        <div>
+        <h2>Boars</h2>
+        <h3>0</h3>
+        </div>
+        <div>
+        <h2>Snare Traps</h2>
+        <h3>0</h3>
+        </div>
+        <div>
+        <h2>Small Snare Traps</h2>
+        <h3>1</h3>
+        </div>
+        <div>
+        <h2>Garlands</h2>
+        <h3>0</h3>
+        </div>
+        <div>
+        <h2>Metal Deposit</h2>
+        <h3>0</h3>
+        </div>
+        <div>
+        <h2>Metal</h2>
+        <h3>0</h3>
+        </div>
+      </div>
+      <div id='stats'>
+        <div>
+        <span id='hungerWarning' class='hidden'>Hunger too low!</span>
+        <p>Hunger</p>
+        <section class='displaysBorder'>
+          <section id='hungerDisplay' class='displays'></section>
+        </section>
+        </div>
+        <div>
+        <p>Thirst</p>
+        <section class='displaysBorder'>
+          <section id='waterDisplay' class='displays'></section>
+        </section>
+        </div>
+        <div>
+        <p>Sanity</p>
+        <section class='displaysBorder'>
+          <section id='sanityDisplay' class='displays'></section>
+        </section>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div>
+        <!--Shadow People-->
+        <img src='Shadow-Person-1.jpg' id='shadowPerson' class='hidden'>
+        <img src='Shadow-Person-2.jpg' id='shadowPerson2' class='hidden'>
+        <!--This is the main text-->
+      <span id='banner'>You wake up at a dark place. You can't recall how you got here. You should probably base tonight.</span><br>
+      <!--This is for tips-->
+      <span id='tips' class='hidden'></span><br>
+      <!--This button appears when you win-->
+      <button id='winButton' class='hidden'>Go through the exit</button>
+      <!--This is the intro button-->
+      <button id='button1'>Continue</button>
+      <!--This one goes foward-->
+      <button id='buttonforward' class='hidden'>Go foward</button>
+      <!--This one goes backward-->
+      <button id='buttonbackward' class='hidden'>Go back</button>
+      <!--This one is for actions-->
+      <button id='actions' class='hidden'></button>
+      <!--This section is for the exit -->
+      <div id='exitSection'>
+      <form id='exitForm' class='hidden'>
+        <label><input type='radio' name='LockNumber' value='1' class='radio' checked>Lock 1</label><br>
+        <label><input type='radio' name='LockNumber' value='2' class='radio'>Lock 2</label><br>
+        <label><input type='radio' name='LockNumber' value='3' class='radio'>Lock 3</label><br>
+      </form>
+      <input type='number' id='exitInput' class='hidden'>
+      <button id='exitButton' class='hidden'>Try this lock</button>
+      <button id='noteButton' class='hidden'>Try to input the code</button>
+      <button id='lookBack' class='hidden'>Look at the exit door again</button>
+      <button id='getBackToMaze' class='hidden'>Focus on the maze again</button>
+      </div>
+      </div>
+      <div id='selfActions'>
+        <!--These are Camp actions, originally names Self actions.-->
+        <p>Camp Actions</p>
+        <button id='sleepButton'>Sleep</button>
+        <button id='flaxCloth'>Use flax to make cloth</button><br>
+        <button id='hempCloth'>Use hemp to make cloth</button>
+        <button id='lookAtNote'>Look at the note again.</button>
+        <button id='fuelCampfire'>Fuel Campfire</button>
+      </div>
+      <div id='foodSection' class='hidden'>
+        <!--These are actions for food-->
+        <p>Food Actions</p>
+        <button id='eatRawRabbits'>Eat a rabbit raw</button>
+        <button id='cookRabbits'>Cook a rabbit</button>
+        <button id='eatCookedRabbits'>Eat a cooked rabbit</button>
+        <button id='eatRawPig'>Eat a pig raw</button>
+        <button id='cookPig'>Cook a pig</button>
+        <button id='eatCookedPig'>Eat a cooked pig</button>
+        <button id='eatRawBoar'>Eat a boar raw</button>
+        <button id='cookBoar'>Cook a boar</button>
+        <button id='eatCookedBoar'>Eat a cooked boar</button>
+      </div>
+    </main>
+    <footer>
+      <!--This is the crafting section-->
+      <p id='craftingRecipe'>Testing</p>
+      <section id='craftingSection'>
+        <div>
+        <p class='craftingList hidden'>Tier 1 crafts</p>
+        <ol id='crafting1List' class='hidden'>
+          <a href='' class='crafting1Items'><li>Pocket Knife</li></a>
+          <a href='' class='crafting1Items'><li>Small Snare Trap</li></a>
+          <a href='' class='crafting1Items'><li>Clothy Bed</li></a>
+          <a href='' class='crafting1Items'><li>Campfire</li></a>
+          <a href='' class='crafting1Items'><li>Garland</li></a>
+          <a href='' class='crafting1Items'><li>Spinning Wheel</li></a>
+          <a href='' class='crafting1Items'><li>Upgrade Base</li></a>
+        </ol>
+        </div>
+        <div>
+        <p class='craftingList hidden'>Tier 2 crafts</p>
+        <ol id='crafting2List' class='hidden'>
+          <a href='' class='crafting2Items'><li>Snare Trap</li></a>
+          <a href='' class='crafting2Items'><li>Pickaxe</li></a>
+          <a href='' class='crafting2Items'><li>Raised Bed</li></a>
+          <a href='' class='crafting2Items'><li>Canteen</li></a>
+          <a href='' class='crafting2Items'><li>Upgrade Base</li></a>
+        </ol>
+        </div>
+        <div>
+        <p class='craftingList hidden'>Tier 3 crafts</p>
+        <ol id='crafting3List' class='hidden'>
+          <a href='' class='crafting3Items'><li>Sledgehammer</li></a>
+          <a href='' class='crafting3Items'><li>Comfortable Bed</li></a>
+          <a href='' class='crafting3Items'><li>Furnace</li></a>
+          <a href='' class='crafting3Items'><li>Metal Knife</li></a>
+        </ol>
+        </div>
+      </section>
+      <span id = 'easterEggs'></span>
+    </footer>
+    <script src='index.js'></script>
+  </body>
+</html>
