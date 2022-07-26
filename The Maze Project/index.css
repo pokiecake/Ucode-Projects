@@ -1,0 +1,153 @@
+.hidden{
+  display:none;
+}
+#banner{
+  speak:normal
+}
+
+html{
+  background:linear-gradient(black, black, grey, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, grey, black, black);
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+#craftingsection{
+  display:flex;
+  
+}
+div{
+  display:flex;
+  flex-direction:column;
+  margin-right:10px;
+}
+
+.displays{
+  height:100%;
+}
+
+#stats{
+  display:flex;
+  flex-direction:row;
+}
+
+.displaysBorder{
+  width:200px;
+  height:10px;
+  border:solid 2px black;
+  margin:0 10px 20px 20px;
+}
+
+#hungerDisplay{
+  background-color:red;
+  width:80%;
+}
+
+#waterDisplay{
+  background-color:aqua;
+  width:83%;
+}
+
+#sanityDisplay{
+  background-color:pink;
+  width:70%;
+}
+
+main{
+  display:flex;
+}
+
+button{
+  width:200px;
+}
+
+img{
+  display:none;
+  width:150px;
+  height:150px;
+  object-fit:cover;
+}
+
+ol{
+  margin-top:0;
+}
+
+.craftingList{
+  margin-bottom:0;
+}
+
+a{
+  text-decoration:none;
+}
+
+li{
+  transition:all 0.5s;
+}
+
+li:hover{
+  transform:scale(1.01);
+  transform-origin:center center;
+}
+
+#craftingRecipe{
+  opacity:0;
+  transition:0.5s;
+  margin-bottom:0;
+}
+
+#selfActions{
+  border:1px black solid;
+  display:none;
+  text-align:center;
+  margin-left:auto;
+}
+
+#selfActions p{
+  margin-top:5px;
+}
+
+#selfActions button{
+  display:none;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#foodSection{
+  border:1px black solid;
+  margin-left:auto;
+  text-align:center;
+  width:250px;
+  height:auto;
+}
+
+#foodSection p{
+  margin-top:10px;
+}
+
+#foodSection button{
+  margin-bottom:5px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#storages{
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+#storages div{
+  flex-direction:column;
+}
+
+#storages h2{
+  margin-bottom:0;
+}
+
+#storages h3{
+  margin-top:0;
+}
+
+button{
+  margin-top:5px;
+}
