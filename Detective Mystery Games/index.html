@@ -1,0 +1,59 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Who dun it?</title>
+    <link href="app.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 class = "guessDecor">Who did it?</h1>
+      <p class = "guessDecor">Choose carefully, you only get one shot (unless you play this again).</p>
+      <p class = "guessDecor">Click on the suspect that you think stole the artifact.</p>
+    </header>
+    <main>
+      <div id = "suspects">
+        <section class = "suspects" id = "lainy">
+          <p class = "name">Officer Lainy</p>
+        </section>
+        <section class = "suspects" id = "john">
+          <p class = "name">John Doe</p>
+        </section>
+        <section class = "suspects" id = "jane">
+          <p class = "name">Jane Doe</p>
+        </section>
+      </div>
+      <div id = "text">
+        <p id = "textName"></p>
+        <p id = "textBox"></p>
+      </div>
+      <div id = "evidence">
+        <section class = "evidence" id = "thud">
+          
+        </section>
+        <section class = "evidence" id = "roof">
+          
+        </section>
+        <section class = "evidence" id = "safe">
+          
+        </section>
+      </div>
+      <div id = "notepad">
+        <textarea></textarea>
+      </div>
+      <div>
+        <button id = "guess">Who's the murderer?</button>
+      </div>
+      <p id = "warning"></p>
+    </main>
+    <footer>
+      <p id = "aftermath"></p>
+      <button id = "readNote">Read it</button>
+      <p id = "note"></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='index.js'></script>
+  </body>
+</html>
