@@ -1,0 +1,19 @@
+#Last-Death{
+  display:flex;
+  flex-direction:row;
+}
+
+#Last-Death section{
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  background-color:#654321;
+  background-color:transparent;
+  box-shadow:0 0 0 0;
+}
+
+#death{
+  height:300px;
+  width:100%;
+  object-fit:cover
+}
