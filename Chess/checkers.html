@@ -1,0 +1,36 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Chess</title>
+    <link href="checkers.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1><del>Chess</del>Checkers game</h1>
+      <p>Made by Tony Nguyen</p>
+    </header>
+    <main>
+      <div id = "game">
+        <!--<div id = "deadPieces">-->
+        <!--  <h2>Graveyard</h2>-->
+        <!--  <canvas id = "displayDeadPieces" height = "100px" width = "400px"></canvas>-->
+        <!--</div>-->
+        <canvas id = "canvas" height = "500" width = "500"></canvas>
+      </div>
+      <section id = "instructions">
+        <p>In case you don't know how to play checkers, look it up.</p>
+      </section>
+    </main>
+    <footer>
+      <!-- 95.99 x 63.99 -->
+      <!-- 3 pieces lengthwise, 2 pieces widthwise -->
+      <img id = "checkerPieces" src = "checker.png">
+      <!-- 224 x 96-->
+      <!-- 7 pieces lengthwise, 3 pieces widthwise-->
+      <img id = "checkerBoard" src = "checker-wood.png">
+    </footer>
+    <script src="checkers.js"></script>
+  </body>
+</html>
