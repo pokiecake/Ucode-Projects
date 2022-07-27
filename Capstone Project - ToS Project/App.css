@@ -1,0 +1,66 @@
+div {
+  display:flex;
+  flex-direction:column;
+}
+
+a{
+  text-decoration:none;
+}
+
+p{
+  line-height:20px
+}
+
+nav{
+  display:flex;
+}
+
+nav img{
+  height:100px;
+  width:100px;
+}
+
+nav a:first-child{
+  margin-right:auto;
+}
+
+nav a:active{
+  color:#654321;
+}
+
+nav a{
+  margin-right:20px;
+}
+
+body{
+  background-image:url(https://bit.ly/2PoULvD);
+  background-size:cover;
+  background-attachment:fixed;
+  background-position:center center;
+}
+
+section{
+  display:flex;
+  background-color:white;
+  margin:40px 40px;
+  text-align:left;
+  box-shadow: 10px 10px 10px 5px black;
+  overflow:auto;
+}
+
+div{
+  margin-left:20px;
+}
+
+.active{
+  color:white;
+}
+
+.active:active{
+  color:white;
+}
+
+main{
+  background-image:linear-gradient(#654321, yellow, #654321, transparent, #654321, yellow, #654321);
+  padding: 20px 20px;
+}
