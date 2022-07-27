@@ -1,0 +1,39 @@
+#view {
+  border:5px solid black;
+  height: 400px;
+  width: 700px;
+}
+
+#view div {
+  display: flex;
+  height: calc(50% - 20px);
+  width: 100%;
+}
+
+#window {
+  border: 5px solid blue;
+  height: 100%;
+  width: 50%;
+  display: inline-block;
+}
+
+#commands {
+  border: 5px solid red;
+  width: 25%;
+  height: 100%;
+  display: inline-block;
+}
+
+#documents {
+  border: 5px solid green;
+  width: calc(100% - 10px);
+  height: calc(50%);
+  margin-top:10px;
+}
+
+#messages {
+  width: 25%;
+  height: 100%;
+  border: 5px solid yellow;
+  display: inline-block;
+}
