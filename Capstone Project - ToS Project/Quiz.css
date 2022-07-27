@@ -1,0 +1,83 @@
+form{
+  background-color:black;
+  text-align:center;
+}
+
+fieldset{
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+}
+
+#Rate-ToS{
+  background-color:green;
+}
+
+#You-like{
+  background-color:red;
+}
+
+#Test{
+  background-color:#654321;
+}
+
+fieldset:hover{
+  border-color:brown;
+  box-shadow:5px 5px 10px 0;
+}
+
+#form-field:hover{
+  border-color:inherit;
+}
+
+#form-field{
+  background-color:white;
+}
+
+#form-field-legend{
+  color:gray;
+}
+
+.text-input:focus{
+  border:yellow solid 5px;
+  box-shadow:5px 5px 10px 0;
+  outline:none;
+}
+
+button{
+  background-color:black;
+  color:white;
+  margin: 10px 0;
+  height: 20px;
+  width: 90px;
+  transition:width 2s, box-shadow 2s;
+}
+
+button:hover{
+  width:130px;
+  box-shadow:5px 5px 10px 0 white;
+}
+
+button:active{
+  box-shadow: 0px 0px 8px 5px white;
+}
+
+select{
+  text-align:center;
+}
+
+input{
+  text-align:center;
+}
+
+textarea{
+  text-align:center;
+}
+
+textarea:focus{
+  outline:none;
+}
+
+Label{
+  line-height:25px;
+}
