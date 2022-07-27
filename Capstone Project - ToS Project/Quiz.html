@@ -1,0 +1,148 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>
+      Town of salem
+    </title>
+    <link href="App.css" rel="stylesheet">
+    <link href="Quiz.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      
+      <nav>
+      <a href="Home.html"><img src="https://bit.ly/2OQrNVK"></a>
+      <a href="Roles.html"><h4>Roles</h4></a>
+      <a href="Gameplay.html"><h4>Gameplay</h4></a>
+      <a href="Strategies.html"><h4>Strategies</h4></a>
+      <a href="Misc.html"><h4>Miscellaneous</h4></a>
+      <a class="active"><h4>Quiz</h4></a>
+      </nav>
+    </header>
+    <form action="https://api.ufor.ms/submissions/Tony@adastraschool.org/Quiz" method="post">
+      <input type="hidden" name="uf_redirect" value="https://bit.ly/2QuV0G2">
+      <fieldset id="form-field">
+        <legend id="form-field-legend">Quiz</legend>
+      <fieldset id="Rate-ToS">
+        <legend>Rating ToS</legend>
+        <div>
+        <label>Do you like ToS?</label>
+        <label><input type="radio" name="Like-ToS" value="Yes">Yes</label>
+        <label><input type="radio" name="Like-ToS" value="No">No</label>
+        </div>
+        <div>
+        <label>What do you rate ToS from a 1 to 10?</label>
+        <input class="text-input" type="number" min="1" max="10" name="Rate-ToS">
+        </div>
+        <div>
+          <label>What do you like about ToS?</label>
+          <textarea class="text-input" name="like-ToS"></textarea>
+        </div>
+      </fieldset>
+      <fieldset id="You-like">
+        <legend>What do you like?</legend>
+        <div>
+        <label>What is/are your favorite faction(s)?</label>
+        <label><input type="checkbox" name="fav-Town" value="Town">Town</label>
+        <label><input type="checkbox" name="fav-Mafia" value="Mafia">Mafia</label>
+        <label><input type="checkbox" name="fav-Neutral" value="Neutral">Neutral</label>
+        <label><input type="checkbox" name="fav-Coven" value="Coven">Coven</label>
+        </div>
+        <div>
+        <label>What is your favorite role?*</label>
+        <select>
+          <option selected>Rather not say</option>
+          <option>Jailor</option>
+          <option>Vigilante</option>
+          <option>Veteran</option>
+          <option>Vampire hunter</option>
+          <option>Investigator</option>
+          <option>Lookout</option>
+          <option>Psychic</option>
+          <option>Sheriff</option>
+          <option>Spy</option>
+          <option>Tracker</option>
+          <option>Bodyguard</option>
+          <option>Doctor</option>
+          <option>Crusader</option>
+          <option>Trapper</option>
+          <option>Transporter</option>
+          <option>Escort</option>
+          <option>Mayor</option>
+          <option>Medium</option>
+          <option>Retributionist</option>
+          <option>Godfather</option>
+          <option>Mafioso</option>
+          <option>Ambusher</option>
+          <option>Forger</option>
+          <option>Framer</option>
+          <option>Janitor</option>
+          <option>Disguiser</option>
+          <option>Hypnotist</option>
+          <option>Consort</option>
+          <option>Consigliere</option>
+          <option>Blackmailer</option>
+          <option>Serial Killer</option>
+          <option>Werewolf</option>
+          <option>Arsonist</option>
+          <option>The Secret Role</option>
+          <option>Jester</option>
+          <option>Witch</option>
+          <option>Executioner</option>
+          <option>Survivor</option>
+          <option>Amnesiac</option>
+          <option>Guardian Angel</option>
+          <option>Vampire</option>
+          <option>Pirate</option>
+          <option>Plaguebearer/Pestilence</option>
+          <option>Coven Leader</option>
+          <option>Medusa</option>
+          <option>Potion Master</option>
+          <option>Poisoner</option>
+          <option>Necromancer</option>
+          <option>Hex Master</option>
+          </select>
+          </div>
+      </fieldset>
+      <fieldset id="Test">
+        <legend>Test</legend>
+        <div>
+        <label>Which roles are in the Coven DLC but not the vanilla game?</label>
+        <label><input type="Checkbox" name="Mafioso-coven" value="Mafioso">Mafioso</label>
+        <label><input type="Checkbox" name="Potion-coven" value="Potion Master">Potion Master</label>
+        <label><input type="Checkbox" name="Witch-coven" value="Witch">Witch</label>
+        <label><input type="Checkbox" name="Vigilante-coven" value="Vigilante">Vigilante</label>
+        <label><input type="Checkbox" name="Pirate-coven" value="Pirate">Pirate</label>
+        <label><input type="Checkbox" name="Jailor-coven" value="Jailor">Jailor</label>
+        <label><input type="Checkbox" name="Arsonist-coven" value="Arsonist">Arsonist</label>
+        <label><input type="Checkbox" name="Everything-coven" value="Everything">All of the Above</label>
+        </div>
+        <div>
+        <label>How many roles in the game are unique?*</label>
+        <input type="Number" class="text-input" name="Unique Roles" min="0" required>
+        <label>Name the Attack and defense spectrums.*</label>
+        <textarea name="Attack-Defense"></textarea>
+        </div>
+        <div>
+          <label>Which role was one of the roles that were suggested by the community?</label>
+          <label><input type="Radio" name="Role-community" value="Framer" required>Framer</label>
+          <label><input type="Radio" name="Role-community" value="Werewolf" required>Werewolf</label>
+          <label><input type="Radio" name="Role-community" value="Jailor" required>Jailor</label>
+          <label><input type="Radio" name="Role-community" value="Pirate" required>Pirate</label>
+        </div>
+      </fieldset>
+      </fieldset>
+      <button>Send</button>
+    </form>
+    <footer>
+      <nav>
+      <a href="Home.html"><img src="https://bit.ly/2OQrNVK"></a>
+      <a href="Roles.html"><h4>Roles</h4></a>
+      <a href="Gameplay.html"><h4>Gameplay</h4></a>
+      <a href="Strategies.html"><h4>Strategies</h4></a>
+      <a href="Misc.html"><h4>Miscellaneous</h4></a>
+      <a class="active"><h4>Quiz</h4></a>
+      </nav>
+    </footer>
+  </body>
+</html>
