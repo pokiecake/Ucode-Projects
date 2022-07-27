@@ -734,7 +734,7 @@ function actionChecker(){
                   } else{
                     //Getting note
                     if (craftables.code === false){
-                      banner.innerText = 'You got a note. It says, "The first number is the number of locks on the door. The second number is the number of possible traps in this maze. The third number is the number of possible sources you can get cloth from. The fourth number is the number of people in this maze." You put this in your pocket.';
+                      banner.innerText = 'You got a note. It says, "The first number is the number of locks on the door. The second number is the number of possible traps in this maze. The third number is the number of ways you can make cloth. The fourth number is the number of people in this maze." You put this in your pocket.';
                       craftables.code = true;
                       switch(exitCounter !== 0){
                         case false:
@@ -749,7 +749,7 @@ function actionChecker(){
                 case 0:
                   //Getting note
                   if (craftables.code === false){
-                    banner.innerText = 'You got a note. It says, "The first number is the number of locks on the door. The second number is the number of possible traps in this maze. The third number is the number of possible sources you can get cloth from. The fourth number is the number of people in this maze." You put this in your pocket.';
+                    banner.innerText = 'You got a note. It says, "The first number is the number of locks on the door. The second number is the number of possible traps in this maze. The third number is the number of possible ways you can make cloth. The fourth number is the number of people in this maze." You put this in your pocket.';
                     craftables.code = true;
                     switch(exitCounter !== 0){
                       case false:
@@ -1374,7 +1374,7 @@ sleepButton.onclick = function(){
 lookAtNote.onclick = function(){
   tips.style.display = 'none';
   easterEggs.style.display = 'none';
-  banner.innerText = "The note says,\"The first number is the number of locks on the door. The second number is the number of possible traps in this maze. The third number is the number of possible sources you can get cloth from. The fourth number is the number of people in this maze.\" You put it back in your pocket";
+  banner.innerText = "The note says,\"The first number is the number of locks on the door. The second number is the number of possible traps in this maze. The third number is the number of ways you can make cloth. The fourth number is the number of people in this maze.\" You put it back in your pocket";
 };
 //Exit Door
 exitButton.onclick = function(event){
@@ -1462,7 +1462,7 @@ noteButton.onclick = function(event){
   event.preventDefault();
   lookBack.style.display = 'block';
     if(exitInput.value.length === 4){
-      if (exitInput.value === '3431'){
+      if (exitInput.value === '3521'){
         banner.innerText = "That was the right code! You get the lock open.";
         lock3 = true;
         noteButton.style.display = 'none';
