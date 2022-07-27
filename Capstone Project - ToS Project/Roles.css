@@ -1,0 +1,64 @@
+table{
+  border-collapse:collapse;
+}
+
+td{
+  border:solid 5px black;
+}
+
+th{
+  border:solid 5px black;
+}
+
+#table{
+  display:flex;
+  flex-direction:column;
+}
+
+.Town{
+  color:green;
+  background-color:red;
+}
+
+.Mafia{
+  color:red;
+  background-color:green;
+}
+
+#Juggernaut{
+  color:#211c3d;
+}
+
+#Juggernaut td:first-child{
+  color:gray;
+}
+
+.Neutral{
+  color:gray;
+  background-color:#211c3d;
+}
+
+ul{
+  margin: 10px 0;
+}
+
+li{
+  margin: 5px 10px;
+}
+
+tfoot{
+  background-color:#654321;
+}
+
+thead{
+  background-color:#654321;
+}
+
+img{
+  height:200px
+}
+
+.Coven{
+  background-color:purple;
+  color:yellow;
+}
