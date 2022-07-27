@@ -1,0 +1,55 @@
+Town of Salem
+Town of Salem is an online game of deception and lying.  ToS 
+is based on the Salem witch trials as well as the game Mafia
+
+- Factions
+In ToS, there are 2 main factions.  They are the Town and the 
+Mafia.  The town do not know who eachother are, and they are 
+trying to get rid of the mafia using their abilities.  The 
+Mafia know who eachother are, and there can be as much as 
+four members of the Mafia at a time.  They are able to kill
+one person every night and also have abilities to help the 
+Mafia and deceive the town.  There is another faction lurking
+about called the Neutrals.  The neutrals have their own unique
+goals and have their own unique abilities.  While some can win
+with the Mafia and/or Town, some win by themselves.
+
+- Roles
+Everyone is assigned a role before the game starts.  All the 
+roles have an alignment, which is the summary of the role.  
+Some town roles are town investigative.  They use their 
+abilities to investigate others to find out if they are 
+town or the mafia.  There is also town killing.  They use 
+their abilities to kill any evildoers, but they can also kill
+town members if they mess up.  Another alignment Neutral 
+killing, which win by themselves and any neutrals whose goals 
+do not counteract with their goals.  There are a lot of roles
+that are fun to play, and some roles are harder to win than others.
+
+- Store and Currency
+In ToS, there are 2 units of Currency called Merit points and Town points.  Merit points are earned by playing 
+games, whether or not you won or lost.  Town points were like merit points, but after version 1.5.9 of Town of 
+salem, they need to be purchased using real money.  You can also get Town points from the daily brew.   You 
+can use Merit and Town points in the store to buy avatars, death animations, pets, and other items.  Some
+items can only be bought by town points, and some items don't use Merit or Town points, but certain goals to
+unlock them.  Once you use something from the store, it will show up in your next game of Town of Salem,
+and you can also you your item if it is a consumable.
+
+- Daily Brew
+The daily brew is a system that gives you rewards.  Every day, you can go to the daily brew and pour a potion
+into the cauldron.  Everytime you pour a potion in, you will get 20 merit points.  It takes 7 potions in order to 
+get a reward, meaning it will take 7 days to get the reward.  The reward is anything from the shop excluding 
+bundles or goal specific items.   You can also charm your reward with a variety of potions that the Daily brew 
+gives you.  They all cost town points, but it can give you great rewards.  If you already own an item, it will not 
+appear as a reward for the Daily brew with the exception of taunts and scrolls if you don't have the max of a 
+type of scroll.
+
+Gameplay
+
+- Ranked
+After completing a certain amount of games, you are able to play Ranked mode.  Ranked games are in 
+seasons.  You are also able to gain or lose elo while playing Ranked games if you won or lost.  This is 
+basically your score for ranked.  Elo is divided up in 6 sections, Bronze, Silver, Gold, Platinum, Diamond, and 
+Master elo.  If you are in one of these elo, you will play against players with the same elo rank and will never 
+play against players with higher or lower elo than you.  After a season of Ranked ends, you will get rewards 
+based on the amount of elo you have.
