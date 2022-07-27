@@ -1,0 +1,40 @@
+main {
+  background-color: #202649;
+  color:white;
+  margin-top:2px;
+}
+
+main div {
+  display: flex;
+  border-bottom: 2px solid white;  
+}
+
+main div img {
+
+  height:     256px;
+}
+
+.banner-home {
+  background-image: linear-gradient(rgba(226, 227, 249, 0.6), rgba(238, 243, 245, 0.57)), url("background-menu.jpg");
+  
+}
+.description {
+  width:   50%;
+  padding: 20px 20px;
+}
+.location {
+  display:flex;
+  justify-content: center;  
+}
+
+.location figure {
+  width: 100%;
+  margin: 10px; 
+  text-align: center;
+}
+.location figure img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin: 10px; 
+}
