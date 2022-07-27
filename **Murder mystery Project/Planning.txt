@@ -1,0 +1,103 @@
+Automatic Clues:
+1. The place is messy, but the walls seem wellkept
+2. Torn decorations are all over the place
+3. There are food drinks on the kitchen table. Drinks include beer and a little case of vodka.
+4. The party has lit illegal fireworks. There are a lot of shrapnel and dust on the grass.
+5. There are burn marks on the body.
+
+Host clues:
+6. The party was for Person 5 who got a job employment (Int. Host).
+7. The party host was told to invite random people on behalf of person 5 (Int. about other people).
+8. The party was hosted at person 5's house (Int. Messy but wellkep house).
+9. The host claims to not have involvement with the fireworks (Int. illegal fireworks).
+10. The host was drunk when she lit the fireworks (Int. R Host involvement with fireworks.
+11. The host thinks the mess was done on purpose.
+
+Rumors clues:
+12. Person 2 doesn't care about the party at all. (Int. R)
+13. The body may have been electrocuted (Int. R burn marks)
+14. R claims that the Host lit the fireworks when he looked through the window (Int. H involvment with the fireworks).
+15. R didn't get drunk at all (Int. R food and drinks)
+16. R claims to be upstairs all the time (Int.)
+
+Surveillence clues:
+17. S was upstairs the entire time (Int. S)
+18. S purposefully made the mess (Int. mess P)
+19. S came to find the guy that robbed him (Int. R other)
+20. S placed bugs around the place (Int. K S mess P)
+21. It turns out that the item stolen were bugs, found in the victim's pocket (Int.)
+22. S handled the vodka (Int. K drinks)
+
+Killer clues:
+22. Person 4 handled the drinks (Int. K drinks).
+23. Person 4 came up with the idea for the party (Int. K).
+24. K knew that the victim robbed S (Int. SCR).
+25. K found some bugs in the mess (Int. S mess P)
+
+Main friend clues:
+26. M was the friend of the victim (Int. M).
+27. M recalls that his friend liked vodka (Int. Drinks).
+28. M recalls that he found a stash of stuff in hsi pocket (Int. burn marks).
+29. M was in the view of S's camera the entire time (Int.)
+30. M didn't like the party at all.
+
+List of clues
+1. The place is messy but the walls are wellkept
+2. Torn decorations are all over the place
+3. There are foods and drinks on the kitchen table. Drinks include beer and a case of vodka.
+4. The party has lit illegal fireworks. There are a lot of shrapnel and dust on the grass.
+5. There are burn marks on the body.
+clues 1-5 are auto
+6. The party was for Person 5 who got a job employment
+Achieved by interrogating the host
+7. Person 1 was told to invite the people on behalf of person 5
+Achieved by interrogating the host about the other people
+8. The party was hosted at person 5's house.
+Achieved by interrogating the host about the messy house
+9. Person 1 claims to not have any involvement with the fireworks
+Achieved by interrogating the host about the illegal fireworks
+10. Person 4 thinks the mess was done on purpose
+Achieved by interrogating the killer about the messy house
+11. Person 2 doesn't care about the party at all
+Achieved by interrogating R
+12. The body may have been electrocuted
+Achieved by interrogating R about the burn marks
+13. Person 2 claims that person 1 lit the fireworks
+Achieved by interrogating R about the host having no involvement with the fireworks
+14. Person 2 didn't get drunk
+Achieved by interrogating R about the drinks
+15. Person 2 claims that he and person 3 were upstairs most of the time.
+Achieved by interrogating R about the victim
+16. Person 3 was at the party early
+Achieved by interrogating S
+17. Person 3 purposfully made the mess
+Achieved by interrogating S about H thinking the mess was done on purpose
+18. Person 3 was here to find the guy who robbed him
+Achieved by interrogating S about the victim stealing from someone
+19. The house has a security system -> Person 3 put cameras around the place
+Achieved by interrogating M about the victim stealing from person 3, then interrogating Person 3 about the security system.
+20. The victim stole from someone -> The victim stole from person 3
+Achieved by interrogating K about the victim then interrogating S about this clue
+21. Person 3 handled the vodka -> Person 3 heavily intoxicated the vodka
+Achieved by interrogating H about the victim liking vodka, then interrogating S about this clue if the player already interrogated S about the victim robbing him.
+22. Person 4 handled the drinks
+Achieved by interrogating K about the drinks
+23. Person 5 handled the food
+Achieved by interrogating 5 about the drinks
+24. Person 4 came up with the idea for the party
+Achieved by interrogating M about the party for him
+25. Person 4 found some surveillence cameras
+Achieved by interrogating K about the mess
+26. M is the victim's friend
+Achieved by interrogating M about the victim
+27. The victim liked vodka
+Achieved by interrogating M about the drinks
+28. M wasn't in the yard during the party
+Achieved by interrogating S about the security system (The player is unable to interrogate M about S putting up the security system)
+29. M didn't like the party.
+Achieved by interrogating M about R not liking the party
+30. M noticed struggle marks at the body -> Both the victim and the killer struggled during the fight. After some time, the camera ran out of power.
+Achieved by interrogating M about the torn decorations then interrogating S about this clue.
+
+Story:
+The victim was a theif that stole from Person 3. Person 4 was a witness to the event, but the victim was never caught. The victim was friends with Person 5, and Person 5 didn't know what Person 4's true profession is. Person 4 devised a plan to kill the victim for his crimes. When person 5 got a job employment, Person 4 wanted to celebrate with a party. Person 5 didn't want it, but person 4 insisted. Person 5 got person 1 to host the party and decide who gets invited. Person 5 gave person 1 a list, but the list was very small. The party was hosted at Person 5's house. Person 5 got some food, person 4 brang some beer, person 3 brang some vodka. Person 2 didn't really care about the party and was upstairs most of the time. Person 4 gave person 3 the ominous hint that the theif was in this party. Person 3 came early to put bugs and cameras around the place to see if someone, in their drunken state, would confess. He also made sure to hide it under piles of clothes. Person 3 had heavy suspicioun that the victim was the theif. He brang vodka and dosed it heavily. The host, in her drunken state, lit fireworks that drew the attention of the police. Person 4 became drunk too quick, but still had a job to do. The victim was in the living room, so he got up and tried to kill the victim. It was a struggle, but person 4 eventually won and used some water and wires to electrocute the victim. After some time, person 4 became sober and realised what he done. The fireworks make it seem like the body was burned that way, and the cameras got turned off when the electrocution happened.
