@@ -7,4 +7,12 @@ Some of these are also just unfinished ideas I never got around to.
 
 If you look really closely at the code, you might find some "interesting" coding decisions I made. 
 
-In my opinion, I think the Club Penguin Rewritten Website and The Maze Project are the best projects I made (at least, relative to the other projects). Due note that the CPR project was made using images from other websites instead of downloaded jpgs, so most of them are gone.
+Some of the websites used image links directly from the internet, so some of the images are broken.
+
+Projects I think are worth visiting:
+Club Penguin Rewritten V.3 (although the images are broken)
+The Maze Project
+Chess (which includes Checkers and tic-tac-toe)
+Detective Mystery Games
+
+Please do not visit **Murder Mystery Project.** That is a result of extremely poor code design.
