@@ -1,0 +1,50 @@
+.guest {
+  color: blue;
+  text-align:right;
+}
+
+.inspector {
+  color: red;
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
+
+#window {
+  width: 400px;
+  height: 200px;
+  border: 5px black solid;
+}
+
+#commands {
+  width: 400px;
+  height: 200px;
+  border: 5px green solid;
+}
+
+#messages {
+  width: 400px;
+  height: 200px;
+  border: 5px yellow solid;
+  overflow:scroll;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+#table {
+  width: 1220px;
+  height: 200px;
+  border: 5px grey solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.warning {
+  color: blue;
+  text-align:center;
+}
