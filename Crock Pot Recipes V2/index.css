@@ -1,0 +1,21 @@
+button{
+  margin:5px;
+  width:100px;
+  height:30px;
+  border-radius:10px 10px 30px 30px;
+}
+button:focus{
+  outline:none;
+}
+td{
+  width:100px;
+  height:100px;
+  overflow:auto;
+  background-color:red;
+  text-align:center;
+  border:2px black solid;
+  margin:5px 5px;
+}
+/*#displayIngredients{*/
+/*  display:flex;*/
+/*}*/
