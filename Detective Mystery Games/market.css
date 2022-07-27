@@ -1,0 +1,117 @@
+#text {
+  background-color:black;
+  color:white;
+  height:150px;
+  width:500px;
+  overflow:hidden;
+  padding-left:5px;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:18px;
+}
+
+#evidence {
+  display:flex;
+  justify-content:space-around;
+}
+
+.evidence {
+  margin:5px 5px;
+  background-color:red;
+  border:2px solid black;
+  display:none;
+  padding: 5px;
+}
+
+#notepad {
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  margin-top:10px;
+  display:none;
+}
+
+#notepad textarea {
+  background-color:yellow;
+  font-size:18px;
+}
+
+#guess {
+  display:none;
+}
+
+.guessDecor {
+  display:none;
+}
+
+footer {
+  display: none;
+  width:300px;
+}
+
+html {
+  background-image:radial-gradient(black, white);
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+#reset {
+  text-align:center;
+}
+
+#reset button:first-child {
+  margin-right:20px;
+  background-color:red;
+}
+
+#reset button:nth-child(2) {
+  background-color:green;
+}
+
+#reset button {
+  width:100px;
+  height:50px;
+  margin-top:10px;
+}
+
+#aftermath {
+  background-color:red;
+  border:2px solid black;
+}
+
+#note {
+  background-color:yellow;
+  border:2px solid black;
+  padding-top:2px;
+  padding-left:2px;
+}
+
+#report {
+  flex-direction: column;
+  text-align: left;
+  background-color: blue;
+  width: 300px;
+  margin-left: calc(50% - 150px);
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border: 2px solid gold;
+}
+
+#report h1 {
+  color:red;
+}
+
+#instructions {
+  background-color:green;
+  padding:5px;
+  border: 1px solid red;
+  width:500px;
+  margin-top:10px;
+}
+
+.hidden {
+  display:none;
+}
