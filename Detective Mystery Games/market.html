@@ -1,0 +1,96 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <link href="app.css" rel="stylesheet">
+    <link href="market.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <h1>If you are somehow reading this, this game is unfinished!</h1>
+      <div class = "guessDecor hidden">
+        <h1>It is now guessing time!</h1>
+        <p>Click on a person to accuse as the murderer. You only get one chance so choose wisely.</p>
+      </div>
+      <div id = "suspects">
+        <section class = "suspects hidden" id = "marcus">
+          <p class = "name">Marcus Patton</p>
+        </section>
+        <section class = "suspects hidden" id = "roxanne">
+          <p class = "name">Roxanne Ford</p>
+        </section>
+        <section class = "suspects hidden" id = "leroy">
+          <p class = "name">Leroy Mathis</p>
+        </section>
+        <section class = "suspects hidden" id = "raquel">
+          <p class = "name">Raquel Watts</p>
+        </section>
+        <section class = "suspects hidden" id = "leslie">
+          <p class = "name">Leslie Shelton</p>
+        </section>
+        <section class = "suspects hidden" id = "christopher">
+          <p class = "name">Christopher George</p>
+        </section>
+      </div>
+      <div id = "text">
+        <p id = "textName"></p>
+        <p id = "textBox"></p>
+      </div>
+      <div id = "reset" class = "hidden">
+        <button id = "resetButton">Reset</button><button id = "continue">Continue</button>
+      </div>
+      <div id = "evidence">
+        <section class = "evidence" id = "office">
+          
+        </section>
+        <section class = "evidence" id = "drug">
+          
+        </section>
+        <section class = "evidence" id = "bomb">
+          
+        </section>
+        <section class = "evidence" id = "boss">
+          
+        </section>
+        <section class = "evidence" id = "badge">
+          <p>My badge</p>
+        </section>
+      </div>
+      <div id = "notepad">
+        <textarea></textarea>
+      </div>
+      <div>
+        <button id = "guess">Who's the murderer?</button>
+      </div>
+      <section id = "report" class = "hidden">
+        
+      </section>
+      <div>
+        <button id = "showInstructions">Show Instructions</button>
+        <section id = "instructions" class = "hidden">
+          <h2>Hello Detective!</h2>
+          <p>It is hard to remember the steps to successfully interrogate a person. However, with these steps, you will find it easy to get the truth.</p>
+          <h3>Interrogation</h3>
+          <p>All you gotta do to talk to people is to click on them. Although remember that you can't interrogate at all times. Wait for people to finish talking and wait until your interrogation starts.</p>
+          <h3>Evidence</h3>
+          <p>To interrogate about evidence, click on a piece of evidence before talking to people. You'll know you selected a piece of evidence if it is highlighted.</p>
+          <p>Whenever you interrogate using evidence, a piece of evidence might be levelled up. However, know that not all interrogations with evidence will level up another evidence.</p>
+          <p>If a piece of evidence is levelled up, you can double click on it to review precious levels. (Again, like interrogation, you have to wait until people stop talking.)</p>
+          <h3>Accusing</h3>
+          <p>You can only accuse someone once every piece of evidence is levelled up. Once you decide to accuse someone, you can't go back to interrogate somone again.</p>
+          <p>Sincerely,<br>???</p>
+        </section>
+      </div>
+      <p id = "warning"></p>
+    </main>
+    <footer>
+      
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src = "text-box.js"></script>
+    <script src = "market-dialogue.js"></script>
+    <script src = "market.js"></script>
+  </body>
+</html>
