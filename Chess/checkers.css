@@ -1,0 +1,9 @@
+body {
+  background-image: linear-gradient(red, blue, green);
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+img {
+  display:none;
+}
