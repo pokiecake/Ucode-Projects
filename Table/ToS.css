@@ -1,0 +1,43 @@
+body{
+  text-align:center;
+  margin:0;
+}
+
+table{
+  text-align:center;
+  width:100%;
+  font-family:sans-serif;
+  border-collapse:collapse;
+  border-color:blue;
+}
+
+th{
+  border-color:blue;
+  border:solid;
+  border-width:2px;
+  text-align:left;
+  padding:8px;
+}
+
+td{
+  border-width:2px;
+  border:solid;
+  text-align:left;
+  padding:8px;
+}
+
+tbody tr:nth-child(even){
+  background-color:red;
+}
+
+table thead{
+  background-color:#822e21;
+}
+
+tbody tr:nth-child(odd){
+  background-color:green;
+}
+
+tfoot{
+  background-color:#822e21;
+}
