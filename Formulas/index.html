@@ -1,0 +1,135 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>
+      Formulas
+    </title>
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Formulas</h1>
+      <p>Table of contents</p>
+      <ol>
+        <a href='#Areas'><li>Areas</li></a>
+          <ol>
+            <a href='#Quad'><li>Quadrilaterals</li></a>
+            <a href='#Triangles'><li>Triangles</li></a>
+            <a href='#Polygons'><li>Polygons</li></a>
+            <a href='#Circles'><li>Circles</li></a>
+          </ol>
+        <a href='#Volumes'><li>Volumes</li></a>
+          <ol>
+            <a href='#Prisms'><li>Prisms</li></a>
+            <a href='#Pyramids'><li>Pyramids</li></a>
+            <a href='#Spheres'><li>Spheres</li></a>
+          </ol>
+      </ol>
+    </header>
+    <main>
+      <section id='Areas'>
+        <h2>Areas</h2>
+        <div id='Quad'>
+          <h3>Quadrilaterals</h3>
+          <p>For a trapezoid, use the average of the bases</p>
+          <form id='Qform'>
+            <label>The base</label>
+            <input type='number' id='Qb'>
+            <label>The height</label>
+            <input type='number' id='Qh'>
+            <button>Submit</button>
+          </form>
+          <p>Area of the quadrilateral: <br>
+            <span id='Aq'></span>
+          </p>
+        </div>
+        <div id='Triangles'>
+          <h3>Triangles</h3>
+          <form id='Tform'>
+            <label>The base</label>
+            <input type='number' id='Tb'>
+            <label>The height</label>
+            <input type='number' id='Th'>
+            <button>Submit</button>
+          </form>
+          <p>Area of the triangle: <br>
+            <span id='At'></span>
+          </p>
+        </div>
+        <div id='Polygons'>
+          <h3>Other polygons</h3>
+          <p>The polygons have to be regular to work</p>
+          <form id='Pform'>
+            <label>The number of sides</label>
+            <input type='number' id='Ps'>
+            <label>The side length</label>
+            <input type='number' id='Pl'>
+            <label>The apothem</label>
+            <input type='number' id='Pa'>
+            <button>Submit</button>
+          </form>
+          <p>Area of the polygon: <br>
+          <span id='Ap'></span></p>
+        </div>
+        <div id='Circles'>
+          <h3>Circles</h3>
+          <p>Add pi to the end</p>
+          <form id='Cform'>
+            <label>The radius</label>
+            <input type='number' id='Cr'>
+            <button>Submit</button>
+          </form>
+          <p>Area of the circle: <br>
+          <span id='Ac'></span></p>
+        </div>
+      </section>
+      <section id='Volumes'>
+        <h2>Volumes</h2>
+        <div id='Prisms'>
+          <h3>Prisms</h3>
+          <p>If your prism is a cylindar, add pi to the end</p>
+          <form id='prform'>
+            <label>Area of the base</label>
+            <input type='number' id='Prb'>
+            <label>The height</label>
+            <input type='number' id='Prh'>
+            <button>Submit</button>
+          </form>
+          <p>Volume of the prism: <br>
+          <span id='Vprism'></span>
+          </p>
+        </div>
+        <div id='Pyramids'>
+          <h3>Pyramids</h3>
+          <p>If your pyramid is a cone, add pi to the end</p>
+          <form id='pyform'>
+            <label>Area of the base</label>
+            <input type='number' id='Pyb'>
+            <label>The height</label>
+            <input type='number' id='Pyh'>
+            <button>Submit</button>
+          </form>
+          <p>Volume of the pyramid: <br>
+          <span id='Vpyr'></span>
+          </p>
+        </div>
+        <div id='Spheres'>
+          <h3>Spheres</h3>
+          <p>Add pi to the end</p>
+          <form id='spform'>
+            <label>The radius</label>
+            <input type='number' id='Spr'>
+            <button>Submit</button>
+          </form>
+          <p>Volume of the sphere: <br>
+          <span id='Vsphere'></span>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      
+    </footer>
+    <script src='index.js'></script>
+  </body>
+</html>
