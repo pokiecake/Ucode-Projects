@@ -1,0 +1,46 @@
+td{
+  width:24px;
+  height:24px;
+  padding:0;
+  background-color:#3aff03;
+  border:black solid 1px;
+}
+table{
+  border-collapse:collapse;
+  width:calc(25px * 16px);
+  height:calc(25px * 20px);
+}
+.kingdom1{
+  background-color:red;
+}
+.kingdom2{
+  background-color:blue;
+}
+main{
+  display:flex;
+  justify-content:space-around;
+}
+div{
+  width:25%;
+  height:100%;
+  display:none;
+}
+header{
+  display:none;
+}
+#chooseAbilities{
+  display:flex;
+  flex-direction:column;
+  width:200px;
+}
+#redAbility{
+  color:red;
+  flex-direction:column;
+}
+#blueAbility{
+  color:blue;
+  flex-direction:column;
+}
+button{
+  margin-top:10px;
+}
