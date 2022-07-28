@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>
+      Morse Code
+    </title>
+    <link href="index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Here is a morse code encoder!</h1>
+      <p>Here are the morse code translations in case you don't know it. (Not all of it is here)</p>
+      <img src='Morse-Code.jpg'>
+    </header>
+    <main>
+      <form id='form'>
+        <fieldset>
+          <label>Enter your message. <br> Small warning: Don't hit the enter key. The translator doesn't recognize it. Some symbols may not work too.</label> <br>
+          <textarea id='text'></textarea>
+          <button>Morse code-ify</button>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <p>Your message is: <br> <span id='result'></span></p>
+    </footer>
+    <script src='index.js'></script>
+  </body>
+</html>
