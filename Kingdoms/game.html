@@ -1,0 +1,45 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>Kingdoms</title>
+    <meta charset = "UTF-8">
+    <link href="game.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <p>It is <span id='displayTurn'>red</span>'s turn</p>
+    </header>
+    <main>
+      <section id='chooseAbilities'>
+        <label>What is player 1's name?</label>
+        <input type = 'text' id = 'redName' value = 'Red' required>
+        <label>Choose player 1's ability</label>
+        <select id="select1">
+          <option>Warrior</option>
+          <option>Wizard</option>
+          <option>Jester</option>
+        </select>
+        <label>What is player 2's name?</label>
+        <input type = 'text' id = 'blueName' value = 'Blue' required>
+        <label>Choose player 2's ability</label>
+        <select id="select2">
+          <option>Warrior</option>
+          <option>Wizard</option>
+          <option>Jester</option>
+        </select>
+        <button id='gameStarter'>Start</button>
+      </section>
+      <section id='redAbility'>
+        
+      </section>
+      <table>
+        
+      </table>
+      <section id='blueAbility'>
+        
+      </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='game.js'></script>
+  </body>
+</html>
