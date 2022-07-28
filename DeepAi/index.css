@@ -1,0 +1,12 @@
+#face-box{
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrPLvMShCtohzKSurQ67E75Hx93vESMhC_mVa5qM4wJtzdcNcGzA');
+  left:0;
+  top:0;
+  position:absolute;
+}
+
+#img-container{
+  position:relative;
+}
