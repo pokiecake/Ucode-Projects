@@ -1,0 +1,35 @@
+body {
+  background-color: red;
+  font-size:18px;
+}
+#newYearMessage {
+  display:none;
+}
+.wish {
+  background-color:blue;
+  margin:20px 0;
+  width:400px;
+  padding-left: 5px;
+}
+
+form {
+  display:flex;
+  flex-direction:column;
+  width:200px;
+}
+
+textarea {
+  margin-top:5px;
+}
+
+button {
+  margin-top:20px;
+}
+
+section {
+  margin-top:20px;
+}
+
+#clock {
+  font-size:50px;
+}
