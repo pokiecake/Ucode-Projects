@@ -1,0 +1,31 @@
+body{
+  background-image:linear-gradient(purple, blue, purple);
+}
+
+section{
+  transition:2s;
+}
+
+.maintext{
+  opacity:0;
+  transition:2s;
+}
+
+.Foundtext{
+  opacity:0;
+  transition:2s;
+  color:red;
+}
+
+section:hover{
+  transform:scale(1.5);
+  transform-origin:left top;
+}
+
+section:hover .maintext{
+  opacity:1;
+}
+
+section:hover .Foundtext{
+  opacity:1;
+}
