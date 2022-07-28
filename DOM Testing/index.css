@@ -1,0 +1,17 @@
+div{
+  position:absolute;
+  height:200px;
+  width:500px;
+  background-color:red;
+}
+div section{
+  width:100px;
+  height:100px;
+  position:relative;
+}
+#box1{
+  background-color:yellow;
+}
+#box2{
+  background-color:blue;
+}
