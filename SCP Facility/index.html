@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>
+      SCP Escape
+    </title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>The SCP facility</h1>
+
+    </header>
+    <main>
+      <section>
+        <div id='character'><h2>You are in this eerie facility. You are a </h2>
+        <select id='selectCharacter'>
+          <option>Nine Tailed Fox unit</option>
+          <option>Foundation personnel</option>
+          <option>D-class personnel</option>
+        </select>
+        <ul>
+          <li>Nine Tailed Fox unit: You know how to deal with SCP's pretty well. Instead of rolling over two to live, you just have to roll over one to live.</li>
+          <li>Foundation personnel: You know the place pretty well. You have to loop around the facility two times to get to Gate A.</li>
+          <li>D-class personnel: You were a criminal who got inside this place for testing. You don't have any special abilities. Picking D-class is basically a hard mode for you.</li>
+        </ul>
+        <br>
+        <button id='confirmCharacter'>Yes, that's who I am.</button>
+        </div>
+        <div id='lose' class='hidden'><h2><span id='loseSCP'></span> You go back to the start with no knowledge of the facility.</h2></div>
+        <div id='win' class='hidden'><h2><span id='winSCP'></span> You can safely advance.</h2></div>
+        <button id='move' class='hidden'>Advance in the facility</button>
+        <div id='lhall' class='hidden'>You are in a hall. You can safely advance.</div>
+        <div id='fightSec' class='hidden'>
+          <h2>SCP <span id='lSCP'></span> <br>
+          <button id='fight'>Escape</button></h2>
+        </div>
+        <div id='lostMove' class='hidden'>
+          <h1>You encountered SCP-<span id='harmlessSCP'></span></h1>
+        </div>
+      </section>
+    </main>
+    <footer>
+      
+    </footer>
+    <script src='script.js'></script>
+  </body>
+</html>
