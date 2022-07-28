@@ -1,0 +1,38 @@
+button{
+  width:100px;
+  height:40px;
+  border-radius:16px;
+}
+
+button:focus{
+  outline:none;
+}
+
+#Rock{
+  position:absolute;
+  top:50px;
+}
+
+#Paper{
+  position:absolute;
+  top:130px;
+  left:100px;
+}
+
+#Scissors{
+  position:absolute;
+  left:200px;
+  top:50px;
+}
+
+div{
+  position:fixed;
+}
+
+h2{
+  position:fixed;
+}
+
+div:nth-child(2){
+  top:250px;
+}
