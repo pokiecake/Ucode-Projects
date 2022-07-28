@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction:column;
+}
+
+input {
+  width:300px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 300px;
+}
+
+#credit {
+  margin-top: 20px;
+}
