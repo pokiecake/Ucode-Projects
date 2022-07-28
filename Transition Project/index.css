@@ -1,0 +1,259 @@
+.header p:first-child{
+  opacity:1;
+  transition:opacity 2s;
+}
+
+.header:hover p:first-child{
+  opacity:0;
+}
+
+.header p:nth-child(2){
+  opacity:0;
+  transition:opacity 2s;
+}
+
+.header:hover p:nth-child(2){
+  opacity:1;
+}
+
+.blue{
+  color:black;
+  transition:color 1s, margin-left 2s, letter-spacing 2s
+}
+
+.blue:hover{
+  color:blue;
+  margin-left:500px;
+  letter-spacing:10px;
+}
+
+.blue:hover{
+  color:blue;
+  margin-left:500px;
+  letter-spacing:10px;
+}
+
+figure img{
+  width:200px;
+  height:200px;
+  transition:width 1s, height 1s, text-align 1s, border-radius 1s; 
+}
+
+figure img:hover{
+  width:500px;
+  height:500px;
+  text-align:right;
+  border-radius:250px;
+}
+
+.box-shadow{
+  background-color:white;
+  transition:box-shadow 1s, background-color 1s,
+  border 1s, padding 1s, letter-spacing 1s, border-radius 2s;
+}
+
+.box-shadow:hover{
+  padding-left:50px;
+  box-shadow:10px 10px 10px 0 black;
+  background-color:red;
+  border:blue solid 5px;
+  letter-spacing:5px;
+  border-radius:100px;
+}
+
+.letter-space{
+  transition:all 2s;
+  font-family:Roboto;
+
+}
+
+.letter-space:hover{
+  color:red;
+  letter-spacing:10px;
+}
+
+.radius{
+  transition:all 2s;
+  background-color:green;
+  height:200px;
+  width:200px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.radius:hover{
+  background-color:yellow;
+  border-bottom-right-radius:50px;
+  border-top-left-radius:100px;
+}
+
+.circle-square{
+  border-radius:200px;
+  height:400px;
+  width:400px;
+  background-color:red;
+  transition:all 2s;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  margin:auto;
+}
+
+.circle-square:hover{
+  border-radius:0;
+}
+
+.Gamja{
+  transition:letter-spacing 2s;
+  font-family:"Gamja Flower";
+}
+
+.Gamja:hover{
+  letter-spacing:20px;
+}
+
+.weird-shape{
+  height:500px;
+  width:500px;
+  border-top-right-radius:250px;
+  border-top-left-radius:200px;
+  border-bottom-right-radius:200px 300px;
+  border-bottom-left-radius:100px;
+  transition:border-top-right-radius 1s, border-top-left-radius 2s,
+  border-bottom-right-radius 3s, border-bottom-left-radius 4s, width 1s, height 2s,
+  background-color .5s;
+  background-color:blue;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  margin:auto;
+}
+
+.weird-shape:hover{
+  border-top-right-radius:150px;
+  border-top-left-radius:350px;
+  border-bottom-right-radius:0;
+  border-bottom-left-radius:300px;
+  width:80%;
+  height:300px;
+  background-color:#6A7E25;
+}
+
+.what-happened{
+  font-family:"Black And White Picture";;
+  transition:all 1s;
+}
+
+.what-happened:hover{
+  letter-spacing:-5px;
+}
+
+.scale{
+  height:350px;
+  width:100%;
+  transition:transform 3s, background-color 3s;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+}
+
+.scale:hover{
+  transform:rotate(1800deg) scale(30);
+  background-color:yellow;
+}
+
+.spinning{
+  background-color:purple;
+  height:400px;
+  width:400px;
+  border-radius:200px;
+  transition:margin-left 5s, transform 5s;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+}
+
+.spinning:hover{
+  margin-left:100%;
+  transform:rotate(36000deg);
+}
+
+.skew{
+  height:200px;
+  width:200px;
+  transition:all 2s;
+  background-color:green;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  transform-origin:top center;
+}
+
+.skew:hover{
+  transform:skew(180deg, 180deg);
+}
+
+.skew .skew-1p{
+  transition:2s;
+}
+
+.skew:hover .skew-1p{
+  opacity:0;
+}
+
+.skew .skew-2p{
+  opacity:0;
+  transition:1s;
+  transition-delay:1s;
+}
+
+.skew:hover .skew-2p{
+  opacity:1;
+}
+
+.translate{
+  transition:all 5s;
+  background-color:blue;
+  height:100px;
+  width:100px;
+  border-radius:50px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  transition-timing-function:linear;
+}
+
+.translate:hover{
+  transform:translate(0px, -3300px) rotate(90deg);
+  background-color:red;
+  border-top-right-radius:10px;
+  border-top-left-radius:10px;
+  border-bottom-right-radius:10px;
+  border-bottom-left-radius:10px;
+  height:50px;
+  width:50px;
+}
+
+.dead{
+  transition:0.1s;
+}
+
+li:hover .dead{
+  margin-left:100%;
+  opacity:0;
+}
+
+form fieldset{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  line-height:20px;
+}
