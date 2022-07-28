@@ -1,0 +1,28 @@
+html{
+  background-color:blue;
+}
+
+#claps{
+  font-size:50px;
+}
+
+th{
+  border: 2px solid black;
+}
+
+td{
+  border: 2px solid black;
+}
+
+table{
+  border-collapse: collapse;
+  text-align:center;
+}
+
+button{
+  margin-top:10px;
+}
+
+#message {
+  font-size:50px;
+}
