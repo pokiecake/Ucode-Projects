@@ -1,0 +1,131 @@
+<!Doctype html>
+<html>
+  <head>
+    <link href="index.css" rel="Stylesheet">
+    <title>Transitions</title>                                                
+    <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Gamja+Flower|Roboto" rel="stylesheet">
+  
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ol>
+        <li><a href="#rounded-shape">Some rounded shape</a></li>
+        <li><a href="#japanese">Japanese flag</a></li>
+        <li><a href="#weird-glitch">Weird shape</a></li>
+        <li><a href="#scale">Scaling to block this website</a></li>
+        <li><a href="#rotate">Rotating circle</a></li>
+        <li><a href="#skew">Scaling's brother, skew</a></li>
+        <li><a href="#translate">Catch the circle</a></li>
+        <li><a class="dead" href="nothing">This is a dead link</a></li>
+        </ol>
+      </nav>
+      <h1>Woah, Animations!</h1>
+      <div class="header">
+        <!--The first p will be shown, the second won't after hovering, it is swapped-->
+      <p>Hover over me to see what I can do!</p>
+      <p>div p:first-child{<br>
+  opacity:1;<br>
+  transition:opacity 2s;<br>
+}<br>
+
+div:hover p:first-child{<br>
+  opacity:0;<br>
+}<br>
+
+div p:nth-child(2){<br>
+  opacity:0;<br>
+  transition:opacity 2s;<br>
+}<br>
+
+div:hover p:nth-child(2){<br>
+  opacity:1;<br>
+}<br>
+</p>
+      </div>
+    </header>
+    <main>
+      <section>
+        <!--hovering over the div will make it blue, go to the right,
+        and put space between the letters-->
+        <div class="blue">
+        <h2>More animations</h2>
+        <p>Make us move! Can you turn us 
+        fully blue?</p>
+        </div>
+
+      </section>
+      <section>
+      <figure>
+        <!--This will make the image a circle and bigger-->
+          <img src="https://bit.ly/2QsOIqp">
+          <figcaption>Doesn't the image look cute?
+          Hover your cursor over it!</figcaption>
+      </figure>
+      </section>
+      <section class="box-shadow">
+        <!--This is really just misc. elements-->
+        <h2>Finally, do some other magic on me.</h2>
+      </section>
+      <section id="rounded-shape">
+        <!--all h2s below will get letter spacing, the weird shape
+        should have negative spacing. This shape will have the top left and bottom right
+        rounded-->
+        <h2 class="letter-space">But wait, there's more!</h2>
+        <div class="radius">I can be some weird rounded shape!</div>
+      </section>
+      <section id="japanese">
+        <!--This should turn into a square-->
+        <h2 class="Gamja">What's this? A circle?</h2>
+        <div class="circle-square">
+          I will become a boring square and not a japanese flag
+        </div>
+      </section>
+      <section id="weird-glitch">
+        <h2 class="what-happened">
+          What is even happning.
+        </h2>
+        <div class="weird-shape">
+          <!--I have no idea anymore-->
+          This is an even weirder shape.
+        </div>
+      </section>
+      <section>
+        <!--This should scale and rotate into most of the page-->
+        <h2 id="scale">We're back! With this shape. Bye!</h2>
+        <div class="scale">I will block this page.</div>
+      </section>
+      <section>
+        <!--This will spin and go to the right-->
+        <h2>A spinning circle!</h2>
+        <div class="spinning">Yeah, move me!</div>
+      </section>
+      <section id="skew">
+        <!--This will fail at covering the page-->
+        <h2>Now for the Scale's younger brother, skew!</h2>
+        <div class="skew">
+          <p class="skew-1p">I will cover the entire page!</p>
+          <p class="skew-2p">I failed.</p>
+        </div>
+      </section>
+      <section id="translate">
+        <!---This will move it foward to the top of the page and do other css-->
+        <h2>Catch the circle!</h2>
+        <form>
+          <fieldset>
+            <legend>Your goal is to submit the form</legend>
+            <label>The button will translate -3300 pixels (up). you have to tell
+            me everything that changed about the button.</label>
+            <textarea minlength="1" max-length="300" name="button-change" placeholder="type here"></textarea>
+          </fieldset>
+        </form>
+        <button class="translate">
+          <p>Catch me if you can!</p>
+        </button>
+      </section>
+    </main>
+    <footer>
+      
+    </footer>
+  </body>
+</html>
