@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>Heron's Formula Calculator</title>
+    <link href='index.css' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <header>
+      <h1>Here is a Heron's formula Calculator!</h1>
+    </header> 
+    <main>
+      <form id='form'>
+        <fieldset>
+          <h2>Heron's formula</h2>
+          <div>
+          <label>What is the first side?</label>
+          <input type='number' id='fside' min=0>
+          </div>
+          <div>
+          <label>What is the second side?</label>
+          <input type='number' id='sside' min=0>
+          </div>
+          <div>
+          <label>What is the third side?</label>
+          <input type='number' id='tside' min=0>
+          </div>
+          <button id='button'>Submit</button>
+        </fieldset>
+      </form>
+      <section>
+        <h2>Results:</h2>
+      <ol>
+        <li>Semiperimeter: <span id='s'></span></li>
+        <li>Area: <span id='Area'></span></li>
+      </ol>
+      <p id='warn'></p>
+      </section>
+    </main>
+    <footer>
+      
+    </footer>
+    <script src='index.js'>
+    </script>
+  </body>
+</html>
