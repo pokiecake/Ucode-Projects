@@ -1,0 +1,99 @@
+/*
+Sprite sheet is 1280 by 427
+Pieces are 213.333 (1280 / 6) by 213.5
+*/
+/*.chessPiece {*/
+/*  width:calc(1280px/6);*/
+/*  height:calc(427px/2);*/
+/*  background-image:url("ChessPieces.png");*/
+/*  background-position:calc(-1280px * 5/6) 0;*/
+/*  background-repeat:no-repeat;*/
+/*  margin-left:calc(1280px * 5/6);*/
+/*}*/
+
+header {
+  color:aqua;
+}
+
+canvas {
+  border:2px black solid;
+  
+}
+
+#chessPieces {
+  display:none;
+}
+
+body{
+  margin:0;
+  background-image:linear-gradient(red, blue, red);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  height:100%;
+  width:100%;
+}
+
+main{
+  text-align:center;
+}
+
+html{
+  width:100%;
+  height:100%;
+}
+
+ul{
+  margin:auto;
+  width:100px;
+}
+
+footer {
+  background-color:blue
+}
+
+#game {
+  justify-content:center;
+  display:flex;
+}
+
+#offers {
+  margin-top:30px;
+}
+
+#offers button { 
+  margin-right:30px;
+}
+
+#offers button:nth-child(3) {
+  margin-right:0;
+}
+
+#displayDeadPieces {
+  background-color:yellow;
+}
+
+#deadPieces {
+  display:flex;
+  flex-direction:column;
+}
+
+#moves {
+  text-align:left;
+  margin-left:5px;
+  padding-left:5px;
+  width:200px;
+  overflow:scroll;
+  height:400px;
+  background-color:white;
+}
+
+#undo {
+  margin-top:10px;
+}
+
+#instructions {
+  background-color:rgba(0, 0, 225, 0.5);
+  padding:5px 0;
+  font-size:20px;
+}
