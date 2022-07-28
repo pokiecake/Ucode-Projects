@@ -1,0 +1,129 @@
+html{
+  height:100%;
+}
+
+body{
+  background-image:radial-gradient(#39cc74,blue,purple);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  margin-top:20px;
+  align-items:center;
+}
+
+fieldset{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  width:170px;
+  background-color:white;
+  border:2px solid black;
+  box-shadow:5px 5px 10px 0;
+  transition:all .3s;
+}
+
+fieldset:hover{
+  border:3px solid black;
+  box-shadow:7px 7px 10px 0;
+}
+
+input{
+  margin-bottom:20px;
+  margin-left:auto;
+  margin-right:auto;
+  transition:all .5s;
+  border-color:#dbd9d8;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input:hover{
+  border-color:#aba9a8;
+  transform:scale(1.03);
+  animation:input-border 3s linear;
+  animation-iteration-count:infinite;
+}
+
+input:focus{
+  outline:none;
+  background-color:#edebe9;
+  border-color:#aba9a8;
+  transform:scale(1.03);
+}
+
+@keyframes input-border{
+  25%{
+    border-color:#dbd9d8;
+  }
+  50%{
+    border-color:#aba9a8;
+  }
+  75%{
+    border-color:#dbd9d8;
+  }
+  100%{
+    border-color:#aba9a8;
+  }
+}
+
+label{
+  margin:5px auto;
+  font-family: 'Montserrat', sans-serif;
+}
+h2{
+  margin-top:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button{
+  height:40px;
+  width:200px;
+  border-top-left-radius:20px;
+  border-bottom-left-radius:20px;
+  border-top-right-radius:20px;
+  border-bottom-right-radius:20px;
+  transition:all .2s;
+  border-color:black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:active{
+  background-color:#f0eeec;
+}
+
+button:focus{
+  outline:0;
+}
+
+div{
+  text-align:center;
+}
+
+button:active{
+  transform:scale(0.96);
+}
+
+section{
+  margin-top:50px;
+  padding-left:20px;
+  border:black 2px solid;
+  box-shadow:5px 5px 10px 0;
+  background-color:white;
+  transition:all .3s;
+  width:200px;
+}
+
+section:hover{
+  border:black 3px solid;
+  box-shadow:7px 7px 10px 0;
+}
+
+ol{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#warn{
+  opacity:0;
+}
