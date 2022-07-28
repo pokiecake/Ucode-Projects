@@ -1,0 +1,50 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width">
+    <title></title>
+    <link href = "App.css" rel = "stylesheet">
+    <link href = "microRow.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      
+    </header>
+    <main>
+      <section id = "menu">
+        <button class = "toGame">Start</button>
+        <button class = "toInstructions">Instructions</button>
+        <button class = "toCredits">Credits</button>
+      </section>
+      <section id = "instructions" class = "hidden">
+        <button class = "backInstructions">Go back</button>
+      </section>
+      <section id = "credits" class = "hidden">
+        <p>The triangle and whistle sound effect were made by <a href = "https://freesound.org/people/InspectorJ/">InspectorJ</a></p>
+        <button class = "backCredits"></button>
+      </section>
+      <section id = "game" class = "hidden">
+        
+      </section>
+      <section id = "audio">
+        <audio id = "clap">
+          <source src = "clap.mp3">
+        </audio>
+        <audio id = "triangle" controls>
+          <source src = "triangle.wav">
+        </audio>
+        <audio id = "whistle" controls>
+          <source src = "whistle.wav">
+        </audio>
+        <audio id = "whistle2" controls>
+          <source src = "whistle.wav">
+        </audio>
+      </section>
+    </main>
+    <footer>
+    </footer>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src = "microRow.js"></script>
+  </body>
+</html>
