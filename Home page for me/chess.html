@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Chess</title>
+    <link href="chess.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Chess game</h1>
+      <p>Made by Tony Nguyen</p>
+    </header>
+    <main>
+      <div id = "game">
+        <!--<div id = "deadPieces">-->
+        <!--  <h2>Graveyard</h2>-->
+        <!--  <canvas id = "displayDeadPieces" height = "100px" width = "400px"></canvas>-->
+        <!--</div>-->
+        <canvas id = "canvas" height = "400px" width = "400px"></canvas>
+        <section id = "moves">
+          <h2>Moves</h2>
+          <ol>
+            
+          </ol>
+        </section>
+      </div>
+      <section id = "offers">
+        <button id = "resignW">White resign</button>
+        <button id = "draw">Offer draw</button>
+        <button id = "resignB">Black resign</button>
+      </section>
+       <!--Remove this when you copy this -->
+       The undo button is broken currently 
+      <!--<button id = "undo">Undo move</button>-->
+      <section id = "instructions">
+        <p>Moves until draw <span id = "movesTillDraw">50</span>.</p>
+        <p>You'll need two players to play chess, but you should know that already.</p>
+        <p>In the case that you don't know how to play chess, <a href = "https://www.instructables.com/id/Playing-Chess/">go here.</a></p>
+      <a href = "tic-tac-toe.html">I've also made a tic tac toe game</a>
+      </section>
+    </main>
+    <footer>
+      <img id = "chessPieces" src = "ChessPieces.png">
+    </footer>
+    <script src="chess.js"></script>
+  </body>
+</html>
