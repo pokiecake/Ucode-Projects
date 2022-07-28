@@ -69,21 +69,21 @@ TempKform.onsubmit = function(event){
 function war(ainf, einf){
   alert('Let\'s go to war!');
   alert('The allies are coming!');
-  alert('They have ' + ainf + ' infantry!');
-  if (ainf === 0){
+  alert('They have ' + einf + ' infantry!');
+  if (einf === 0){
     alert('Wait, they didn\'t come.');
-    if (einf === 0){
+    if (ainf === 0){
       alert('Good thing we also have no infantry too.');
       alert("Welp, that's all. Everybody take five");
-    } else if (einf > 0){
+    } else if (ainf > 0){
       alert('That means we can charge!');
       alert('Everybody, kill the allies!');
       alert('We won!');
       alert('Cheers to conquest!');
     }
-  } else if (ainf > 0){
-      alert('We have ' + einf + ' infantry!');
-      if (einf === 0){
+  } else if (einf > 0){
+      alert('We have ' + ainf + ' infantry!');
+      if (ainf === 0){
         alert("Wait, we don't have any infantry.");
         alert('Wait, they are charging!');
         alert("Everybody, run away!");
@@ -92,12 +92,12 @@ function war(ainf, einf){
       } else{
         alert('Ready your weapons!');
         alert('Fire!');
-        if (ainf * 1.5 > einf * 2){
-          alert('The allies are winning!');
+        if (ainf * 1.5 < einf * 2){
+          alert('The enemy is stronger!');
           alert('Fall back!');
           alert('We failed...');
           alert('Mutiny!');
-        } else if (ainf * 1.5 < einf * 2){
+        } else if (ainf * 1.5 > einf * 2){
           alert('We are winning!');
           alert('We won!');
           alert('Let\'s Celebrate!');
