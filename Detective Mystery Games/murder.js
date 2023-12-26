@@ -570,7 +570,7 @@ let endingDialogue = [
     new DialogueConstructor("Sylvia Love", "Please, Detective! Don't arrest me! I didn't kill him!"),
     new DialogueConstructor("Detective (You)", "You will be under arrest, Syliva."),
     //Game says the answer
-    new DialogueConstructor("Game", "You have arrested Jerome Carson. Your accusation of Sylvia is...", true, "hideEveryone"),
+    new DialogueConstructor("Game", "You have arrested Sylvia Love. Your accusation of Sylvia is...", true, "hideEveryone"),
     new DialogueConstructor("Game", "Wrong."),
     new DialogueConstructor("Game", "You can either try to find the murderer again and return to the game (with your progress saved), or you can see this ending and the identity of the murderer.", false, "allowReset"),
     //Ending
